@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.smartbit </groupId>
+	<artifactId>spring-security</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>spring-security</name>
+	<description>Demo project for Spring Boot</description>
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>rest-with-https</module>
+        <module>basic-spring-security</module>
+        <module>spring-security-with-custom-uds</module>
+        <module>spring-security-with-user-datasource</module>
+		<module>spring-security-with-form-login</module>
+		<module>spring-security-with-otp-authserver</module>
+		<module>spring-security-with-otp-resourceserver</module>
+		<module>spring-security-with-oauth-authserver</module>
+		<module>spring-security-with-oauth-resourceserver</module>
+		<module>spring-security-with-basic-resourceserver</module>
+		<module>spring-security-with-oauth-client</module>
+	</modules>
+
+</project>
